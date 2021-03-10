@@ -1,0 +1,549 @@
+
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+#topbar{
+    width: 100%;
+    height: 77px;
+    background-color: white;
+    box-shadow: 0px 2px 4px #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 20px;
+    position: fixed;
+    margin-top: 0px;
+    box-sizing: border-box;
+    
+}
+#logo{
+    width: 40px;
+    margin-left: 24px;
+
+}
+.navbar{
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 24px; 
+    text-decoration: none; 
+}
+.button{
+    color: white;
+    background-color: #AAD235;
+    margin-right: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 9px 34px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/*#first-section-contanir*/
+
+#first-section-contanir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    background-size: cover;
+    background-position:center;
+    
+    
+}
+#first-section-contanir h2{
+    letter-spacing: 8.8px;
+    font-size:45px;
+    font-weight: 600;
+    width: 100%;
+    line-height: 55px;
+
+}
+.drop{
+    padding-left:10px ;
+}
+#first-section-contanir p{
+    color: #8b8b99;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    width: 100%;
+}
+
+/*#second-section-contener*/
+
+#parent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+    
+}
+#parent #child1 {
+    background-color: #5acda6;
+    
+}
+#parent #child2{
+    background-color: #91ac41;
+}
+#parent #child3{
+    background-color: #e4b476;
+}
+#parent #child4{
+    background-color: #f69dad;
+}
+.para-parent{
+    color: white;
+}
+.para-parent2{
+    font-weight:600;
+    font-size: 24px;
+    margin: 24px 0px;
+}
+.child11{
+    width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+}
+.font{
+    color: white;
+    font-size: 94px;
+    line-height: 1px;
+    transition-property: transform;
+    transition-duration:0.2s ;
+}
+.font:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+
+
+#third-container {
+    display: flex;
+    flex-direction: column;
+    /* height: 800px; */
+    background-color: #F6EEE1;
+    text-align: center;
+    padding: 100px 40px;
+}
+
+#third-container h4{
+    color: #91AC40;
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-family: 'Caveat', cursive;
+}
+
+#third-container h1{
+    margin: 0px;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#third-container h3{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(160, 160, 160);
+    margin-bottom: 80px;
+}
+
+#store-items-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0px 10%;
+    min-width: 800px;
+}
+
+.store-item{
+    /* background-color: rgb(161, 233, 233); */
+    width: 20%;
+    margin: 0px 5px;
+    padding: 5px 10px;
+}
+
+
+.store-item div{
+    min-width: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#items-icon{
+    padding: 40px;
+    font-size: 80px;
+    width: 90px;
+    color: white;
+    border-radius: 50%;
+    background-color: #E3B475;
+}
+
+
+.store-item h2{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.store-item p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #8b8b99;
+}
+
+
+
+/* Fourth Container */
+
+
+#fourth-container{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#vegan-shop-content{
+    text-align: center;
+    margin: 50px 0px;
+    width: 50%;
+    /* background-color: #5ACDA5; */
+}
+
+#vegan-shop-content h4{
+    color: #91AC40;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+
+}
+
+
+#vegan-shop-content p{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(160, 160, 160);
+}
+
+#vegan-shop-content h2{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#vegan-shop-details{
+    display: flex;
+    justify-content: center;
+}
+
+
+.vegan-shop-expert-wrapper{
+    background-color: #F5F6FB;
+    width: 25%;
+    padding: 20px 0px;
+    align-items: center;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 0px 20px; 
+}
+
+
+.vegan-shop-expert-wrapper img{
+    width: 80px;
+    border-radius: 50%;
+  
+}
+
+
+.vegan-shop-expert-wrapper p{
+    padding:  5px 25px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #8b8b99;
+}
+
+
+.vegan-shop-expert-wrapper h2{
+    font-family: sans-serif;
+}
+
+
+
+
+
+/* Fifth Container */
+
+
+#fifth-container{
+    display: flex;
+    background-color: #FFFFFF;
+    max-height: 700px;
+}
+
+
+#fifth-container img{
+    width: 65%;
+    height: 700px;
+
+}
+
+#fifth-container div{
+    text-align: left;
+    padding: 5% 10%;
+    width: 35%;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+    /* background-size: contain; */
+}
+
+#fifth-container div h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fifth-container div p{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    color: #8b8b99;
+}
+
+#fifth-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#follow-us-email{
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 20px;
+    outline-style: none;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+
+#follow-us-button{
+    margin-top: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #F59DAE;
+    width: 70%;
+    /* height: 50px; */
+}
+
+
+
+#follow-us-button:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #F59DAE;
+    color: #F59DAE;
+}
+
+
+
+
+/* Sixth Container  */
+
+
+#sixth-container{
+    display: flex;
+    background-color: #F6FCFA;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 150px 200px;
+}
+
+
+#sixth-container div{
+    margin: 0px 50px;
+}
+
+
+#sixth-container div h1{
+    text-align: center;
+    font-size: 60px;
+    margin:0;
+    font-family: sans-serif;
+    /* background-color: #91AC40; */
+}
+
+
+#sixth-container div p{
+    text-align: center;
+    font-size: 20px;
+    margin:0;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #5ACDA5;
+}
+
+
+/* Seventh Container */
+
+
+#seventh-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #E4B576; */
+    padding: 80px 0px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #8b8b99;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+/* Eighth Container */
+
+
+#eighth-container{
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+
+#address{
+    margin-right: 10%;
+}
+
+#address h3{
+    font-family: 'Caveat', cursive;
+    color: #91AC40;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#address h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+#address h2{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+#address p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #8b8b99;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+
+
+
+#get-in-touch{
+    display: flex;
+    flex-direction: column;
+}
+
+#get-in-touch h3{
+    font-family: 'Caveat', cursive;
+    color: #91AC40;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#get-in-touch h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    margin: 0px 0px;
+}
+
+#get-in-touch p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #8b8b99;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+#get-in-touch form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#person-details{
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(225, 225, 225);
+    outline-style: none;
+}
+
+
+#get-in-touch form textarea{
+    font-size: 20px;
+    padding: 10px;
+    outline-style: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+
+#contact-form-submit-btn{
+    font-size: 20px;
+    width: 35%;
+    font-weight: 800;
+    background-color: #AAD235;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 100px;
+    padding-top: 30px;
+    font-family: sans-serif;
+    
+}
